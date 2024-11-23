@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/FB_FullscreenTheme.Content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fb_placements_header" />
+    <EditText android:id="@id/placement_name_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:drawableLeft="@android:drawable/ic_menu_search" android:inputType="text" android:imeOptions="actionDone" android:drawableStart="@android:drawable/ic_menu_search" />
+    <ListView android:id="@id/placements_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:layout_weight="1.0" />
+</LinearLayout>

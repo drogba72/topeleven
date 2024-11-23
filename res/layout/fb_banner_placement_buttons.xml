@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/placement_actions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+        <FrameLayout android:id="@id/show_button" android:background="@drawable/fb_ts_button_background_default" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="1.0" android:layout_marginEnd="4.0dip">
+            <TextView android:layout_gravity="center" android:id="@id/request_label" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fb_ts_network_placement_show" style="@style/FB_MediationStatus.TextAppearance" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/instance_status" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:indeterminateOnly="true" style="@android:style/Widget.ProgressBar.Small" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/destroy_button" android:background="@drawable/fb_ts_button_background_disabled" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0" android:layout_marginStart="4.0dip">
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fb_ts_network_placement_destroy" style="@style/FB_MediationStatus.TextAppearance" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@id/view" android:background="@color/fb_ts_divider" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/placement_actions" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

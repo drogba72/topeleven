@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/FB_FullscreenTheme.Content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/details" layout="@layout/fb_placements_header" />
+    <include android:id="@id/placement_actions_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/details" layout="@layout/fb_full_screen_placement_buttons" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/fb_auction_feedback" android:layout_below="@id/placement_actions_buttons" layout="@layout/fb_instances_in_placement" />
+    <include android:id="@id/fb_auction_feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/fb_placement_request_feedback" />
+</RelativeLayout>

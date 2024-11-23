@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/fb_mrec_banner_destroy_button" android:background="@drawable/fb_ts_button_background_default" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/fb_ts_network_placement_destroy" style="@style/FB_MediationStatus.TextAppearance" />
+        <FrameLayout android:id="@id/fb_mrec_placeholder" android:layout_width="300.0dip" android:layout_height="250.0dip" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</FrameLayout>

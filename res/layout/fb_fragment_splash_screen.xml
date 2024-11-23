@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/fb_ts_splashscreen_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <ImageView android:id="@id/imageView" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fb_dt_fairbid" android:contentDescription="DT logo" />
+        <LinearLayout android:orientation="vertical" android:id="@id/progress_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+            <ProgressBar android:id="@id/progressBar2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:indeterminate="true" style="?android:progressBarStyle" />
+            <TextView android:textAppearance="@style/FB_ListView.TextAppearance" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/progress_message" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fb_ts_configuration_fetching" android:minLines="3" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="@style/FB_ListView.TextAppearance.Primary" android:layout_gravity="bottom|center" android:id="@id/sdk_version" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/TestSuite_CloseImageButton" android:background="@android:color/transparent" android:padding="8.0dip" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="@dimen/fb_ts_padding_top" android:layout_marginRight="8.0dip" android:src="@drawable/fb_ic_close_white" android:contentDescription="@string/fb_ts_action_close_description" android:layout_marginEnd="8.0dip" />
+</FrameLayout>

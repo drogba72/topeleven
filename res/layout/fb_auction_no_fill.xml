@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/fb_ts_grey_background" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="fill_horizontal|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:minHeight="40.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip">
+        <TextView android:textAppearance="@style/FB_FB_Placements.TextAppearance1" android:id="@id/auction_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="No ad available" />
+    </LinearLayout>
+</LinearLayout>

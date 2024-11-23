@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/timerAnimationLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/timerAnimationView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView android:textSize="24.0sp" android:id="@id/timerLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FB_FullscreenTheme.Content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fb_placement_request_status" android:background="@color/fb_ts_placements" android:padding="110.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/fb_placement_request_status" />
+    <include android:id="@id/auction_summary_no_fill_container" android:background="@color/fb_ts_placements" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" layout="@layout/fb_auction_no_fill" />
+    <include android:id="@id/auction_summary_container" android:background="@color/fb_ts_placements" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" layout="@layout/fb_auction_winner_summary" />
+</LinearLayout>

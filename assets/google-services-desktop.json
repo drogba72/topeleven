@@ -1,0 +1,136 @@
+{
+  "project_info": {
+    "project_number": "174062355238",
+    "firebase_url": "https://api-project-174062355238.firebaseio.com",
+    "project_id": "api-project-174062355238",
+    "storage_bucket": "api-project-174062355238.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174062355238:android:1f2874e192121252",
+        "android_client_info": {
+          "package_name": "eu.nordeus.topeleven.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174062355238-rdtai6t860cfhtft8tfcbdlefllqlr2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.nordeus.topeleven.android",
+            "certificate_hash": "dc991fa9ab717e94d3e27421196ea4a3db05faf8"
+          }
+        },
+        {
+          "client_id": "174062355238-sr4to4ed7arkjrvcugq69icls20f2sfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqQM-5-41ZPElD61SKgg6_d9mbCYsXiHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174062355238-sr4to4ed7arkjrvcugq69icls20f2sfo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "174062355238-2pko5s5kaa09ogr4vsv8l4l80u13dh14.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "eu.nordeus.TopEleven.custom"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9497538944072366~8645113605"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174062355238:android:79dfbb7817df61ae",
+        "android_client_info": {
+          "package_name": "eu.nordeus.topeleven.android.custom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174062355238-sr4to4ed7arkjrvcugq69icls20f2sfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqQM-5-41ZPElD61SKgg6_d9mbCYsXiHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174062355238-sr4to4ed7arkjrvcugq69icls20f2sfo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "174062355238-2pko5s5kaa09ogr4vsv8l4l80u13dh14.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "eu.nordeus.TopEleven.custom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174062355238:android:f1acb9d063d06cc011b7e7",
+        "android_client_info": {
+          "package_name": "eu.nordeus.topeleven.android.gs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174062355238-a798bgkp2qvs9t4oc37cdffs4sg7h9ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.nordeus.topeleven.android.gs",
+            "certificate_hash": "a14df5ec6a083df4d89e7cf51ec43c9afa4f262f"
+          }
+        },
+        {
+          "client_id": "174062355238-sr4to4ed7arkjrvcugq69icls20f2sfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqQM-5-41ZPElD61SKgg6_d9mbCYsXiHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174062355238-sr4to4ed7arkjrvcugq69icls20f2sfo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "174062355238-2pko5s5kaa09ogr4vsv8l4l80u13dh14.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "eu.nordeus.TopEleven.custom"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

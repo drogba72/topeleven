@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/FB_FullscreenTheme.Content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="20.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:paddingStart="20.0dip" android:paddingEnd="8.0dip">
+        <TextView android:textAppearance="@style/FB_TestSuiteHeader.TextAppearance" android:id="@id/TestSuite_Header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fb_ts_name" android:layout_toLeftOf="@id/TestSuite_Close" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_toStartOf="@id/TestSuite_Close" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@style/FB_TestSuiteHeader2.TextAppearance" android:id="@id/sdk_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fb_ts_main_screen_version_text" android:layout_toLeftOf="@id/TestSuite_Close" android:layout_below="@id/TestSuite_Header" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/TestSuite_Close" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@style/FB_TestSuiteHeader2.TextAppearance" android:id="@id/app_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/TestSuite_Close" android:layout_below="@id/sdk_version" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/TestSuite_Close" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/TestSuite_Close" android:background="@android:color/transparent" android:padding="8.0dip" android:layout_width="32.0dip" android:layout_height="wrap_content" android:src="@drawable/fb_ic_close_black" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/fb_ts_main_screen_close_button" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0" layout="@layout/fb_mediation_status_header" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0" layout="@layout/fb_placements_header" />
+    </LinearLayout>
+</LinearLayout>

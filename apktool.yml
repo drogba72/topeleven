@@ -1,0 +1,264 @@
+version: 2.9.3
+apkFileName: eu.nordeus.topeleven.android.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 23
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 8441
+  versionName: 25.12
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  androidsupportmultidexversion.txt: 0
+  billing.properties: 8
+  byte_string_store.proto: 8
+  client_analytics.proto: 8
+  core-common.properties: 8
+  firebase-analytics.properties: 8
+  firebase-annotations.properties: 8
+  firebase-encoders-proto.properties: 8
+  firebase-encoders.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-iid.properties: 8
+  firebase-measurement-connector.properties: 8
+  messaging_event.proto: 8
+  messaging_event_extension.proto: 8
+  play-services-ads-base.properties: 8
+  play-services-ads-identifier.properties: 8
+  play-services-ads-lite.properties: 8
+  play-services-ads.properties: 8
+  play-services-appset.properties: 8
+  play-services-auth-api-phone.properties: 8
+  play-services-auth-base.properties: 8
+  play-services-auth.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-cloud-messaging.properties: 8
+  play-services-cronet.properties: 8
+  play-services-drive.properties: 8
+  play-services-fido.properties: 8
+  play-services-games.properties: 8
+  play-services-location.properties: 8
+  play-services-measurement-api.properties: 8
+  play-services-measurement-base.properties: 8
+  play-services-measurement-impl.properties: 8
+  play-services-measurement-sdk-api.properties: 8
+  play-services-measurement-sdk.properties: 8
+  play-services-measurement.properties: 8
+  play-services-nearby.properties: 8
+  play-services-places-placereport.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  review.properties: 8
+  universal_request_store.proto: 8
+  user-messaging-platform.properties: 8
+  webview_configuration_store.proto: 8
+  stamp-cert-sha256: 8
+  com/appsflyer/internal/a-: 0
+  com/appsflyer/internal/b-: 0
+  com/appsflyer/internal/c-: 0
+  com/appsflyer/internal/d-: 0
+  com/fasterxml/jackson/core/json/VERSION.txt: 8
+  com/fasterxml/jackson/databind/cfg/VERSION.txt: 8
+  commonMain/default/manifest: 8
+  commonMain/default/linkdata/module: 8
+  commonMain/default/linkdata/package_androidx/0_androidx.knm: 0
+  commonMain/default/linkdata/package_androidx.annotation/0_annotation.knm: 8
+  commonMain/default/linkdata/root_package/0_.knm: 0
+  gatewayprotocol/v1/ad_data_refresh_request.proto: 8
+  gatewayprotocol/v1/ad_data_refresh_response.proto: 8
+  gatewayprotocol/v1/ad_player_config_request.proto: 8
+  gatewayprotocol/v1/ad_player_config_response.proto: 8
+  gatewayprotocol/v1/ad_request.proto: 8
+  gatewayprotocol/v1/ad_response.proto: 8
+  gatewayprotocol/v1/allowed_pii.proto: 8
+  gatewayprotocol/v1/campaign_state.proto: 8
+  gatewayprotocol/v1/client_info.proto: 8
+  gatewayprotocol/v1/developer_consent.proto: 8
+  gatewayprotocol/v1/diagnostic_event_request.proto: 8
+  gatewayprotocol/v1/dynamic_device_info.proto: 8
+  gatewayprotocol/v1/error.proto: 8
+  gatewayprotocol/v1/get_token_event_request.proto: 8
+  gatewayprotocol/v1/header_bidding_ad_markup.proto: 8
+  gatewayprotocol/v1/header_bidding_token.proto: 8
+  gatewayprotocol/v1/initialization_completed_event_request.proto: 8
+  gatewayprotocol/v1/initialization_request.proto: 8
+  gatewayprotocol/v1/initialization_response.proto: 8
+  gatewayprotocol/v1/mutable_data.proto: 8
+  gatewayprotocol/v1/native_configuration.proto: 8
+  gatewayprotocol/v1/operative_event_request.proto: 8
+  gatewayprotocol/v1/pii.proto: 8
+  gatewayprotocol/v1/privacy_update_request.proto: 8
+  gatewayprotocol/v1/privacy_update_response.proto: 8
+  gatewayprotocol/v1/session_counters.proto: 8
+  gatewayprotocol/v1/static_device_info.proto: 8
+  gatewayprotocol/v1/test_data.proto: 8
+  gatewayprotocol/v1/timestamps.proto: 8
+  gatewayprotocol/v1/transaction_event_request.proto: 8
+  gatewayprotocol/v1/universal_request.proto: 8
+  gatewayprotocol/v1/universal_response.proto: 8
+  gatewayprotocol/v1/webview_configuration.proto: 8
+  google/protobuf/any.proto: 8
+  google/protobuf/api.proto: 8
+  google/protobuf/duration.proto: 8
+  google/protobuf/empty.proto: 8
+  google/protobuf/field_mask.proto: 8
+  google/protobuf/source_context.proto: 8
+  google/protobuf/struct.proto: 8
+  google/protobuf/timestamp.proto: 8
+  google/protobuf/type.proto: 8
+  google/protobuf/wrappers.proto: 8
+  nonJvmMain/default/manifest: 8
+  nonJvmMain/default/linkdata/module: 8
+  nonJvmMain/default/linkdata/package_androidx/0_androidx.knm: 0
+  nonJvmMain/default/linkdata/package_androidx.annotation/0_annotation.knm: 8
+  nonJvmMain/default/linkdata/root_package/0_.knm: 0
+  okhttp3/internal/publicsuffix/NOTICE: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 0
+  org/jacoco/core/jacoco.properties: 8
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.datastore_datastore-preferences.version
+- META-INF/androidx.datastore_datastore.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices-java.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices.version
+- META-INF/androidx.profileinstaller_profileinstaller.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate-ktx.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.webkit_webkit.version
+- META-INF/androidx.work_work-runtime-ktx.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/com.android.games.engine.build_fingerprint
+- META-INF/com.google.android.material_material.version
+- META-INF/com.google.play.common.version
+- META-INF/com.google.play.core.version
+- META-INF/com.google.play.review.version
+- META-INF/kotlinx_coroutines_android.version
+- META-INF/kotlinx_coroutines_core.version
+- META-INF/kotlinx_coroutines_play_services.version
+- assets/format.html
+- assets/fyb_iframe_endcard_tmpl.html
+- assets/fyb_static_endcard_tmpl.html
+- assets/index.html
+- png
+- mp4
+- assets/AssetBundles/Android/atlas_battlepassatlas/atlas_battlepassatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_bigpadlockanimationatlas/atlas_bigpadlockanimationatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_bonusesrepresentationatlas/atlas_bonusesrepresentationatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_celebrationatlas/atlas_celebrationatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_chatatlas/atlas_chatatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_clanatlas/atlas_clanatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_clanemblematlas/atlas_clanemblematlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_clubshopatlas/atlas_clubshopatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_commonatlas/atlas_commonatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_communityfeedatlas/atlas_communityfeedatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_competitionsatlas/atlas_competitionsatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_continentalcompetitionatlas/atlas_continentalcompetitionatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_dailyloginrewardsatlas/atlas_dailyloginrewardsatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_financesatlas/atlas_financesatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_fixturesatlas/atlas_fixturesatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_flagsatlas/atlas_flagsatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_gachaatlas/atlas_gachaatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_goalfestatlas/atlas_goalfestatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_groundatlas/atlas_groundatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_headeratlas/atlas_headeratlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_hintatlas/atlas_hintatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_homeatlas/atlas_homeatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_homeheaderatlas/atlas_homeheaderatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_liveeventsatlas/atlas_liveeventsatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_livematchatlas/atlas_livematchatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_manageratlas/atlas_manageratlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_notificationsatlas/atlas_notificationsatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_paymentsatlas/atlas_paymentsatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_personaltraineratlas/atlas_personaltraineratlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_piggybankatlas/atlas_piggybankatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_playeratlas/atlas_playeratlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_playstyleatlas/atlas_playstyleatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_playstylesmallatlas/atlas_playstylesmallatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_secondarynavigationatlas/atlas_secondarynavigationatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_shopitematlas/atlas_shopitematlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_squadatlas/atlas_squadatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_teamplaydrillscelebrationatlas/atlas_teamplaydrillscelebrationatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_trainingatlas/atlas_trainingatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_transfersatlas/atlas_transfersatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_tutorial20atlas/atlas_tutorial20atlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_uniquecelebrationsatlas/atlas_uniquecelebrationsatlas.var_800px.ab
+- assets/AssetBundles/Android/atlas_youthacademyatlas/atlas_youthacademyatlas.var_800px.ab
+- assets/AssetBundles/Android/common_art/common_art.var_base.ab
+- assets/AssetBundles/Android/continental_competition/continental_competition.var_base.ab
+- assets/AssetBundles/Android/fe_art_arena_ftue/fe_art_arena_ftue.var_base.ab
+- assets/AssetBundles/Android/fe_art_arenas_shared/fe_art_arenas_shared.var_base.ab
+- assets/AssetBundles/Android/fe_art_ball/fe_art_ball.var_base.ab
+- assets/AssetBundles/Android/fe_art_camera/fe_art_camera.var_base.ab
+- assets/AssetBundles/Android/fe_art_lighting/fe_art_lighting.var_base.ab
+- assets/AssetBundles/Android/fe_art_players/fe_art_players.var_base.ab
+- assets/AssetBundles/Android/fe_art_shared/fe_art_shared.var_base.ab
+- assets/AssetBundles/Android/font_ar_ar/font_ar_ar.var_base.ab
+- assets/AssetBundles/Android/font_th_th/font_th_th.var_base.ab
+- assets/AssetBundles/Android/font_vi_vn/font_vi_vn.var_base.ab
+- assets/AssetBundles/Android/ftue_character/ftue_character.var_base.ab
+- assets/AssetBundles/Android/ground_common/ground_common.var_base.ab
+- assets/AssetBundles/Android/gui_shaders/gui_shaders.var_base.ab
+- assets/AssetBundles/Android/player_embedded/player_embedded.var_base.ab
+- assets/AssetBundles/Android/sounds/sounds.var_base.ab
+- assets/AssetBundles/Android/texture_backgrounds/texture_backgrounds.var_1536px.ab
+- assets/AssetBundles/Android/texture_formations/texture_formations.var_1536px.ab
+- assets/AssetBundles/Android/texture_onesize_backgrounds/texture_onesize_backgrounds.var_base.ab
+- assets/ad-viewer/ad-viewer.v1.32.4-ad-viewer.html
+- assets/bin/Data/unity_app_guid
+- assets/dexopt/baseline.prof
+- res/raw/com_android_billingclient_heterodyne_info
+- res/raw/com_android_billingclient_registration_info.binarypb
+- res/raw/w2e_congrats.html
+- res/raw/w2e_congrats_default.html

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/primary_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/secondary_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/fb_ic_warning" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="fill_horizontal|center" android:orientation="vertical" android:id="@id/row_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:minHeight="40.0dip" android:layout_toLeftOf="@id/secondary_icon" android:layout_toRightOf="@id/primary_icon" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip" android:layout_toStartOf="@id/secondary_icon" android:layout_toEndOf="@id/primary_icon">
+        <TextView android:textAppearance="@style/FB_ListView.TextAppearance.Primary" android:id="@id/text_first_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/FB_ListView.TextAppearance" android:id="@id/text_second_line" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/FB_ListView.TextAppearance" android:id="@id/testmode_text_view" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/view" android:background="@color/fb_ts_divider" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/row_content" android:layout_alignLeft="@id/row_content" android:layout_alignParentRight="true" android:layout_alignStart="@id/row_content" android:layout_alignParentEnd="true" />
+</RelativeLayout>

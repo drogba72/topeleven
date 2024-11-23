@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/FB_FullscreenTheme.Content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/fb_ts_toolbar_background" android:paddingTop="@dimen/fb_ts_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/TestSuite_Network_BackImageButton" android:background="@android:color/transparent" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/fb_ic_arrow_back" android:contentDescription="@string/fb_ts_action_back_description" android:layout_marginStart="8.0dip" />
+        <TextView android:textAppearance="@style/FB_ListView.TextAppearance.Primary" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/TestSuite_Network_TitleLabel" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:id="@id/TestSuite_Network_CloseImageButton" android:background="@android:color/transparent" android:padding="8.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/fb_ic_close_black" android:contentDescription="@string/fb_ts_action_close_description" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <ListView android:id="@id/TestSuite_Network_StatusInfoList" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="12.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>
